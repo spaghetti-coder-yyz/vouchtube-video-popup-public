@@ -26,14 +26,14 @@ console.log("position: ", window.VOUCHTUBE_CONFIG.position);
 console.log("Opened the popup");
 
 // Does not seem to run here
-// const openAndCloseVideoWidget = () => {
-//   openVideoPopup();
-//   setTimeout(() => {
-//     closeVideoPopup();
-//   }, 2500);
-// };
+const openAndCloseVideoWidget = () => {
+  openVideoPopup();
+  setTimeout(() => {
+    closeVideoPopup();
+  }, 2500);
+};
 
-// setTimeout(openAndCloseVideoWidget, 500);
+setTimeout(openAndCloseVideoWidget, 500);
 
 // Only for codesandbox.io
 const removeWatermark = () => {
